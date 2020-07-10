@@ -11,4 +11,6 @@ In this project, I used machine learning to create five base models, to predict 
 
 Following which, I created a stacked Ensemble Learning Model, making use of the predicted results of the five models above in an attempt to improve the overall performance. This model was created using XGBoost.
 
+Results from the base models show very promising results, with Gradient Boosting producing the lowest accuracy of 85.6% while Support Vector Machines predicted 100% of the testset. The ensemble model produced exactly the same results as the Gradient Boosting model.
+
 The dataset was retrieved from https://www.kaggle.com/c/titanic/overview.
