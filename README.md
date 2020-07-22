@@ -12,6 +12,17 @@ In this project, I used machine learning to create six base models, to predict w
 
 Following which, I created an Ensemble Learning Model, making use of the six models above in an attempt to improve the overall performance. This model was created using VotingClassifier.
 
-Results from the base models show very promising results, with Support Vector Machine producing the lowest accuracy of 78.7% while Gradient Boosting predicted 93.4% of the testset. The ensemble model produced 91% accuracy.
+Results from the base models show very promising results, with Support Vector Machine producing the lowest accuracy of 78.7% while Gradient Boosting predicted 93.4% of the trainset. The ensemble model produced 91% accuracy.
 
-The dataset was retrieved from https://www.kaggle.com/c/titanic/overview.
+I made seven submissions, one for every model I tested. The results are as shows:
+1. Logistic Regression: 75.8%
+2. Support Vector Machine: 76.6%
+3. Multilayer Perceptron: 74.2%
+4. Random Forest: 76.8%
+5. Gradient Boosting: 76.6%
+6. XGBoost: 76.3%
+7. Voting Classifier Ensemble: 77.5%
+
+Through this, the ensemble model showed that it can improve predictions from the average, and more feature engineering can possibly be done to try to improve the accuracies for all models.
+
+The dataset & challenge can be found here https://www.kaggle.com/c/titanic/overview.
